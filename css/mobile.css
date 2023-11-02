@@ -89,11 +89,11 @@ header {
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- width: 90%;
+ width: 95%;
  /* aspect-ratio: 1 / 1; */
  height: 20.8%;
  max-height: 200px;
- border: 2px black solid;
+ /* border: 2px black solid; */
  position: absolute;
  left: 0%;
  top: 48%;
@@ -162,7 +162,7 @@ header {
 .header__textContent button {
  background-color: #0962e8;
  border: none;
- width: 92% !important;
+ width: 100% !important;
  height: 25%;
  border-radius: 12px;
  /* font-size: clamp(10px, 2vmax, 18px); */
@@ -273,15 +273,18 @@ header {
   padding: 10%;
  }
 
+
+
+
  .card p{
-  font-size: calc(1dvw + 1dvh);
+  font-size: calc(0.8dvw + 0.8dvh);
   padding: 10%;
   
  }
 
  .header__textContent p {
   
-  font-size: calc(1.2dvw + 1.2dvh);
+  font-size: calc(1dvw + 1dvh);
   
  }
 }
@@ -303,7 +306,7 @@ header {
  /* border: 2px black solid; */
  text-align: center;
  font-family: Inter;
- font-size: calc(2.7dvw + 2.7dvh);
+ font-size: calc(1.8dvw + 1.8dvh);
  font-weight: 500;
 }
 
@@ -387,7 +390,7 @@ header {
 }
 
 .reasons__textContent {
- width: 100%;
+ width: 95%;
  height: 40%;
  /* border: 2px blue solid; */
  display: flex;
@@ -398,7 +401,7 @@ header {
 .reasons__textContent h3 {
  font-family: Inter;
  /* font-size: clamp(10px, 2vmax, 27px); */
- font-size: calc(2.7dvw + 2.7dvh);
+ font-size: calc(1.7dvw + 1.7dvh);
  font-weight: 700;
  text-align: center;
 }
@@ -408,7 +411,7 @@ header {
 }
 .reasons__textContent p {
  font-family: Inter;
- font-size: calc(1.3dvw + 1.3dvh);
+ font-size: calc(1dvw + 1dvh);
  font-weight: normal;
 }
 
@@ -419,7 +422,7 @@ header {
  height: 20%;
  border-radius: 12px;
  
- font-size: calc(2dvw + 2dvh);
+ font-size: calc(1.5dvw + 1.5dvh);
  font-weight: 400;
  color: white;
 }
@@ -443,18 +446,18 @@ header {
 
 @media (max-width: 250px) {
  .reasons__textContent h3 {
-  font-size: calc(2dvw + 2dvh);
+  font-size: calc(1.4dvw + 1.4dvh);
  }
 
  .mainProducts h2 {
   
-  font-size: calc(2dvw + 2dvh);
+  font-size: calc(1.7dvw + 1.7dvh);
   
  }
 
  .reasons__textContent p {
   
-  font-size: calc(1.1dvw + 1.1dvh);
+  font-size: calc(0.9dvw + 0.9dvh);
   
  }
 
@@ -473,6 +476,7 @@ header {
  grid-template-columns: repeat(2, 1fr);
  grid-column-gap: 2%;
  grid-row-gap: 2%;
+ margin-top: 10px;
 }
 
 .reasons__grid__card {
@@ -480,22 +484,22 @@ header {
  border-radius: 5%;
  font-family: Inter;
  /* font-size: clamp(5px, calc(0.2dvw + 0.2dvh), 25px); */
- font-size: calc(1.3dvw + 1.3dvh);
+ font-size: calc(1dvw + 1dvh);
  font-weight: 500;
  padding: 1%;
- aspect-ratio: 1.2 / 1;
+ aspect-ratio: 1.4 / 1;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
  align-items: flex-start;
  box-shadow: 6px 4px 12px 0px #0000000D;
-
+  width: 100%;
 }
 
 @media (max-width: 250px) {
  .reasons__grid__card {
   
-  font-size: calc(1dvw + 1dvh);
+  font-size: calc(0.8dvw + 0.8dvh);
   
  
  }
