@@ -37,13 +37,13 @@ header {
 
 .header__language {
  /* border: 2px black solid; */
- width: 5%;
+ width: 10%;
  display: flex;
  justify-content: space-between;
  align-items: center;
  align-self: flex-end;
  margin-top: 2%;
- margin-right: 15%;
+ margin-right: 8%;
 }
 
 .ru,
@@ -115,6 +115,26 @@ header {
  color: #0962E8;
 }
 
+@media (min-width: 1347px) {
+  .card {
+    
+    font-size: 13px;
+    
+   }
+
+   .ru,
+  .en {
+   font-size: 18px;
+ }
+
+ .fontelloIcons{
+ 
+  
+  font-size: 25px;
+  
+ }
+}
+
 @media (max-width: 800px) {
  .card {
    font-size: calc(0.6dvw + 0.6dvh) !important;
@@ -126,13 +146,6 @@ header {
  .en {
    font-size: clamp(5px, 1vmax, 14px);
  }
-}
-
-@media (max-width: 560px) {
-  .card {
-    font-size: calc(0.4dvw + 0.4dvh) !important;
-    
-  }
 }
 
 
@@ -197,13 +210,38 @@ header {
 .header__textContent button {
  background-color: #0962e8;
  border: none;
- width: 55%;
- height: 20%;
+ width: 60%;
+ height: 25%;
  border-radius: 12px;
  /* font-size: clamp(10px, 2vmax, 18px); */
  font-size: calc(1dvw + 1dvh);
  font-weight: 400;
  color: white;
+}
+
+@media (min-width: 1347px) {
+  .header__textContent{
+    width: 300px;
+    height: 204px;
+  }
+
+  .lable h1 {
+    
+    font-size: 40.3px;
+    
+   }
+
+   .header__textContent p {
+   
+    font-size: 14px;
+    
+   }
+
+   .header__textContent button {
+    
+    font-size: 22px;
+    
+   }
 }
 
 @media (max-width: 1000px) {
@@ -221,12 +259,16 @@ header {
 }
 
 @media (max-width: 800px) {
- .header__textContent p {
-   font-size: clamp(5px, 1.8vmax, 15px);
- }
+  .header__textContent p {
+    font-size: calc(0.8dvw + 0.8dvh) !important;
+  }
+  
+  .header__textContent button {
+    font-size: calc(0.8dvw + 0.8dvh);
+  }
 
  .lable h1 {
-   font-size: calc(2dvw + 2dvh);
+   font-size: calc(1.9dvw + 1.9dvh);
    /* font-size: 3vmax; */
    /* font-size: 2vmax; */
    /* font-size: 1.5vmax; */
@@ -239,7 +281,7 @@ header {
    /* font-size: 1.5vmax; */
  }
  .header__textContent p {
-  font-size: calc(0.7dvw + 0.7dvh);
+  font-size: calc(0.7dvw + 0.7dvh) !important;
 }
 
 .header__textContent button {
@@ -248,18 +290,12 @@ header {
 
 }
 
-@media (max-width: 490px) {
-  .header__textContent p {
-    
-    font-size: calc(0.5dvw + 0.5dvh);
-    
-   }
-}
-
 @media (max-width: 450px) {
  .lable h1 {
    font-size: calc(1.5dvw + 1.5dvh);
  }
+
+ 
 }
 
 .header__mainImage {
@@ -283,12 +319,18 @@ header {
 }
 
 .mainProducts h2 {
- width: 50%;
+ width: 70%;
  /* border: 2px black solid; */
  text-align: center;
  font-family: Inter;
  font-size: calc(1.5dvw + 1.5dvh);
  font-weight: 500;
+}
+
+@media (min-width: 1347px) {
+  .mainProducts h2 {
+    font-size: 32.6px;
+  }
 }
 
 @media (max-width: 760px) {
@@ -347,6 +389,16 @@ header {
  font-family: Inter;
  font-size: calc(0.7dvw + 0.7dvh);
  font-weight: normal;
+}
+
+@media (min-width: 1347px) {
+  .product__card__textContent h3{
+    font-size: 22px !important;
+  }
+
+  .product__card__textContent p{
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -419,6 +471,24 @@ header {
  color: white;
 }
 
+@media (min-width: 1347px) {
+  .reasons__textContent h3 {
+   
+    font-size: 30.4px;
+    
+   }
+
+   .reasons__textContent p {
+    
+    font-size: 17.5px;
+    
+   }
+
+   .reasons__textContent button{
+    font-size: 22px !important;
+   }
+}
+
 @media (max-width: 1000px) {
  .reasons__textContent button {
    font-size: calc(0.5dvw + 0.5dvh);
@@ -471,6 +541,12 @@ header {
  align-items: flex-start;
  box-shadow: 6px 4px 12px 0px #0000000D;
 
+}
+
+@media (min-width: 1347px) {
+  .reasons__grid__card{
+    font-size: 17.4px;
+  }
 }
 
 @media (max-width: 640px) {
